@@ -26,7 +26,8 @@
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>message_generation</exec_depend>
   
+  <depend>load_venv</depend>
   <export>
-    <pip_requirements>requirements.txt</pip_requirements>
+    <load_venv requirements="${prefix}/requirements.txt" />
   </export>
 </package>
